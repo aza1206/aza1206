@@ -36,20 +36,20 @@ Topic: Transferable adversarial attacks, gradient ensemble, sharpness-aware opti
 
 ### Conference Papers
 - **SAGE: Sharpness Aware Shuffled Gradient Ensemble Attacks**
-- The 38th Workshop on Image Processing and Image Understanding, 2026 Authors: Chanwoo Cho, Gyuho Choi
-- Topic: Transferable adversarial attacks using BSR input transformation and EGSAM
-- Result: Achieved average ASR of 71.42% on ViT-based target models and 74.58% on CNN-based target models
+- - The 38th Workshop on Image Processing and Image Understanding, 2026 Authors: Chanwoo Cho, Gyuho Choi
+- - Topic: Transferable adversarial attacks using BSR input transformation and EGSAM
+- - Result: Achieved average ASR of 71.42% on ViT-based target models and 74.58% on CNN-based target models
 
 - **Zero-shot Ensemble-based TI-PGD Adversarial Attack**
-- Conference Paper
-- Authors: Chanwoo Cho, Gyuho Choi
-- Topic: Zero-shot transfer-based adversarial attack using surrogate ensemble and translation-invariant gradients
-- Result: Achieved average ASR of 75.29% on CIFAR-10 CNN target models
+- - Conference Paper
+- - Authors: Chanwoo Cho, Gyuho Choi
+- - Topic: Zero-shot transfer-based adversarial attack using surrogate ensemble and translation-invariant gradients
+- - Result: Achieved average ASR of 75.29% on CIFAR-10 CNN target models
 
 - **Ensemble Surrogate-based Diffusion Adversarial Patch Transfer Attack**
-- Conference Paper Authors: Chanwoo Cho, Myeonggeon Lee, Jueun Kang, Chaewon Kang, Chaeeun Oh, Gyuho Choi
-- Topic: Physical adversarial patch transfer attack using surrogate ensemble and diffusion-based patch generation
-- Result: Achieved average ASR of 55.4% across YOLOv3 to YOLOv12 target detectors
+- - Conference Paper Authors: Chanwoo Cho, Myeonggeon Lee, Jueun Kang, Chaewon Kang, Chaeeun Oh, Gyuho Choi
+- - Topic: Physical adversarial patch transfer attack using surrogate ensemble and diffusion-based patch generation
+- - Result: Achieved average ASR of 55.4% across YOLOv3 to YOLOv12 target detectors
 
 ---
 
