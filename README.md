@@ -79,12 +79,7 @@ An experimental pipeline for evaluating physical adversarial patches against obj
 - Webcam-based physical attack evaluation
 - Attack Success Rate calculation
 - Evaluation under controlled distance, angle, and lighting conditions
-
-### CIFAR-10 Adversarial Defense Experiments
-Adversarial training and defense experiments using CNN models.
-- ResNet-based CIFAR-10 classification
-- -  FGSM, PGD, and CW attack evaluation
--  Defensive distillation and adversarial training experiments
+Repository:[https://github.com/aza1206/TRACE]
 
 ---
 ## Awards
