@@ -22,44 +22,63 @@ I am particularly interested in improving the transferability of adversarial exa
 
 ## Publications & Manuscripts
 
-### Knowledge-Based Systems 
-- **Sharpness-Aware Gradient Ensemble for Transferable Adversarial Attacks**
-- Status: Conditionally Accepted / Under Revision
-- Topic: Transferable adversarial attacks, gradient ensemble, sharpness-aware optimization
+### Preprint
 
-### NeurIPS 2026 Submission
-- Research on transferable adversarial attacks
-- Status: Under Review / Submitted
- 
-### Ongoing Research
-- Physical adversarial patch attacks for object detection
-- Transferability enhancement between surrogate and target models
-- Robustness evaluation of CNN and Vision Transformer models
- 
+- **BSR_SAGE: Sharpness-Aware Gradient Ensemble for Transferable Adversarial Attacks** 2026, Preprint
+DOI: [10.2139/ssrn.6581884](https://doi.org/10.2139/ssrn.6581884)
+Contributors: Chanwoo Cho, Gyuho Choi
+Topic: Transferable adversarial attacks, gradient ensemble, sharpness-aware optimization
+
 ---
 
-## Selected Projects
+### Journal Manuscript
+
+
+### Conference Papers
+- **SAGE: Sharpness Aware Shuffled Gradient Ensemble Attacks**
+The 38th Workshop on Image Processing and Image Understanding, 2026 Authors: Chanwoo Cho, Gyuho Choi
+Topic: Transferable adversarial attacks using BSR input transformation and EGSAM
+Result: Achieved average ASR of 71.42% on ViT-based target models and 74.58% on CNN-based target models
+
+- **Zero-shot Ensemble-based TI-PGD Adversarial Attack**
+Conference Paper
+Authors: Chanwoo Cho, Gyuho Choi
+Topic: Zero-shot transfer-based adversarial attack using surrogate ensemble and translation-invariant gradients
+Result: Achieved average ASR of 75.29% on CIFAR-10 CNN target models
+
+- **Ensemble Surrogate-based Diffusion Adversarial Patch Transfer Attack**
+Conference Paper Authors: Chanwoo Cho, Myeonggeon Lee, Jueun Kang, Chaewon Kang, Chaeeun Oh, Gyuho Choi
+Topic: Physical adversarial patch transfer attack using surrogate ensemble and diffusion-based patch generation
+Result: Achieved average ASR of 55.4% across YOLOv3 to YOLOv12 target detectors
+
+---
+
+## Research Projects
 
 ### BSR-SAGE: Transferable Adversarial Attack
-Implementation of a transferable adversarial attack framework based on gradient ensemble, sharpness-aware optimization, and input transformation strategies.
+A PyTorch-based research project for improving adversarial transferability through gradient ensemble, sharpness-aware optimization, and input transformation strategies.
 
-- PyTorch-based adversarial attack implementation
-- Transferability evaluation across multiple target models
-- Experiments on ImageNet-compatible classifiers
-- Comparison with existing transfer attack baselines
+- Implemented transfer-based adversarial attacks
+- Applied block shuffle and rotation-based input transformation
+- Evaluated attack success rates across CNN and Vision Transformer target models
+- Compared performance with existing transfer attack baselines
+- Analyzed adversarial transferability under black-box settings
+Repository: [https://github.com/aza1206/BSR_SAGE]
 
 ### DSD: Adversarial Attack Codebase
-Research code for adversarial example generation and transferability evaluation.
-
-- Gradient-based attack implementation
+Research codebase for adversarial example generation and transferability evaluation.
+- Gradient-based adversarial attack implementation
 - Surrogate-to-target transfer evaluation
-- Attack success rate analysis
+- Attack Success Rate analysis
+- Experimental pipeline for reproducible evaluation
+Repository: [https://github.com/aza1206/DSD]
 
 ### Physical Adversarial Patch Evaluation
-Experimental pipeline for evaluating physical adversarial patches against object detection models.
-- YOLO-based real-time object detection
+An experimental pipeline for evaluating physical adversarial patches against object detection models.
+- YOLO-based real-time person detection
 - Webcam-based physical attack evaluation
-- Attack Success Rate calculation under controlled distance, angle, and lighting
+- Attack Success Rate calculation
+- Evaluation under controlled distance, angle, and lighting conditions
 
 ### CIFAR-10 Adversarial Defense Experiments
 Adversarial training and defense experiments using CNN models.
@@ -67,6 +86,13 @@ Adversarial training and defense experiments using CNN models.
 - -  FGSM, PGD, and CW attack evaluation
 -  Defensive distillation and adversarial training experiments
 
+---
+## Awards
+- **Silver Prize, IT Festival Idea Contest**, Chosun University, 2025
+Awarded for outstanding performance in the 2025 Chosun University IT Festival Idea Contest.
+
+- **Excellence Award, SW-Centered University AI Algorithm Competition**, Chosun University, 2025
+Awarded for excellence in the 2025 Chosun University SW-Centered University AI Algorithm Competition.
 ---
 
 ## Technical Skills
